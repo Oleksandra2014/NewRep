@@ -1,0 +1,78 @@
+/*
+CSS - Cascading style sheet 
+css selectors 
+- tag 
+- clas
+- id  
+*/
+
+/*tag selector*/
+
+p{
+    /* property: value; */
+    color: blue; 
+    font-weight: 700;
+}
+
+/*class*/
+
+.headerelement{
+    font-size: 48px;
+    text-align: center;
+    color: green;
+}
+
+/*id selector*/
+
+#headerfont{
+    color: blue;
+    text-align: right;
+}
+
+h2{
+    color:red;
+
+}
+
+/*chain without space*/
+h2#headerfont{
+    color: purple;
+
+}
+
+/*section .article p{
+border: 3px solid black;
+border-radius: 24px;
+}*/
+
+article > p span{
+    border: 3px solid rgb(red, green, blue);
+    border-radius: 4px;
+}
+
+
+section{
+    background-color: rgb(251, 255, 0);
+    margin-bottom: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+.displaysection{
+    display: flex;
+    
+}
+
+div section {
+    color: rgb(0, 0, 0);
+    border: 1 px solid red;
+    padding: 20 px;
+    margin: 5px;
+}
+
+.displaysection{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
